@@ -46,7 +46,7 @@
             this.lblWhileResult.Name = "lblWhileResult";
             this.lblWhileResult.Size = new System.Drawing.Size(166, 25);
             this.lblWhileResult.TabIndex = 0;
-            this.lblWhileResult.Text = "0, 0, 0, 0, 0, 0.";
+            this.lblWhileResult.Text = "0. 0. 0. 0. 0. 0.";
             this.lblWhileResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnWhile
@@ -57,6 +57,7 @@
             this.btnWhile.TabIndex = 1;
             this.btnWhile.Text = "로또 번호";
             this.btnWhile.UseVisualStyleBackColor = true;
+            this.btnWhile.Click += new System.EventHandler(this.btnWhile_Click);
             // 
             // lboxWhileResult
             // 
@@ -83,6 +84,7 @@
             this.btnDoWhile.TabIndex = 4;
             this.btnDoWhile.Text = "선택 번호";
             this.btnDoWhile.UseVisualStyleBackColor = true;
+            this.btnDoWhile.Click += new System.EventHandler(this.btnDoWhile_Click);
             // 
             // label1
             // 
